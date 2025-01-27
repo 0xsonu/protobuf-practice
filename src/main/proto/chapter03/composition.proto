@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package chapter03;
+
+option java_multiple_files = true;
+option java_package = "org.sonuk.models.chapter03";
+
+
+message Address {
+  string street = 1;
+  string city = 2;
+  string state = 3;
+}
+
+message Student {
+  string name = 1;
+  Address address = 2;
+}
+
+message School {
+  int32  id = 1;
+  string name = 2;
+  Address address = 3;
+}
