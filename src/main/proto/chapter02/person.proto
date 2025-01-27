@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package chapter02;
+// if you do not want a class outer class then set this option
+option java_multiple_files= true;
+option java_package = "org.sonuk.models.chapter02";
+message Person {
+  string name = 1;
+  int32 age = 2;
+}
