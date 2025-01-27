@@ -27,8 +27,7 @@ public class Composition {
                 .setName("High School")
                 .setAddress(studentAddress.toBuilder().setStreet("125, main street"))
                 .build();
-
-
+        
         logger.info(student.toString());
         logger.info(school.toString());
     }

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package chapter03;
+
+option java_multiple_files = true;
+option java_package = "org.sonuk.models.chapter03";
+
+message Book {
+  string title = 1;
+  string author = 2;
+  int32 publication_year = 3;
+}
+
+message Library {
+  string name = 1;
+  repeated Book book = 2;
+}
