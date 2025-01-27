@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package chapter01;
+option java_package = "org.sonuk.models.chapter01";
+message Person {
+  string name = 1;
+  int32 age = 2;
+}
