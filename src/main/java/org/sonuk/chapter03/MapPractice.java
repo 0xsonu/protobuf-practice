@@ -2,10 +2,10 @@ package org.sonuk.chapter03;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.sonuk.model.BodyStyle;
-import org.sonuk.model.Car;
-import org.sonuk.model.Cars;
-import org.sonuk.model.Dealer;
+import org.sonuk.models.chapter03.BodyStyle;
+import org.sonuk.models.chapter03.Car;
+import org.sonuk.models.chapter03.Cars;
+import org.sonuk.models.chapter03.Dealer;
 
 import java.util.List;
 

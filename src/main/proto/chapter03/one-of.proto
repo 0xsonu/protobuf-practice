@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package chapter03;
 
-option java_package = "org.sonuk.model";
+option java_package = "org.sonuk.models.chapter03";
 option java_multiple_files = true;
 
 message Email {

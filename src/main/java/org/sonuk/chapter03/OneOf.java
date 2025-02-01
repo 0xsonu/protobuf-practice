@@ -2,9 +2,9 @@ package org.sonuk.chapter03;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.sonuk.model.Credentials;
-import org.sonuk.model.Email;
-import org.sonuk.model.Phone;
+import org.sonuk.models.chapter03.Credentials;
+import org.sonuk.models.chapter03.Email;
+import org.sonuk.models.chapter03.Phone;
 
 public class OneOf {
     private static final Logger log = LoggerFactory.getLogger(OneOf.class);

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package chapter04.common;
+
+option java_multiple_files = true;
+option java_package = "org.sonuk.models.chapter04.common";
+
+
+message Address {
+  string street = 1;
+  string city = 2;
+  string state = 3;
+}

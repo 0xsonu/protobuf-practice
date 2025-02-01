@@ -7,8 +7,8 @@ import org.sonuk.models.chapter03.Library;
 
 import java.util.List;
 
-public class Collections {
-    private static final Logger logger = LoggerFactory.getLogger(Collections.class);
+public class Collection {
+    private static final Logger logger = LoggerFactory.getLogger(Collection.class);
 
     public static void main(String[] args) {
         var book = Book.newBuilder()

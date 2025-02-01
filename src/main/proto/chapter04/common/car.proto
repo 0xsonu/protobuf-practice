@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-package chapter03;
+package chapter04.common;
 
-option java_package = "org.sonuk.models.chapter03";
+option java_package = "org.sonuk.models.chapter04.common";
 option java_multiple_files = true;
 
 enum BodyStyle {
@@ -24,6 +24,4 @@ message Cars {
 }
 
 
-message Dealer {
-  map<int32, Cars> inventory = 1;
-}
+
