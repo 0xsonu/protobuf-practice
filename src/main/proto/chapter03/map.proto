@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package chapter03;
+
+option java_package = "org.sonuk.model";
+option java_multiple_files = true;
+
+message Car {
+  string make = 1;
+  string model = 2;
+  int32 year = 3;
+}
+
+message Cars {
+  repeated Car car = 1;
+}
+
+
+message Dealer {
+  map<int32, Cars> inventory = 1;
+}
