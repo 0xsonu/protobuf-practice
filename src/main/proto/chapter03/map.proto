@@ -5,10 +5,18 @@ package chapter03;
 option java_package = "org.sonuk.model";
 option java_multiple_files = true;
 
+enum BodyStyle {
+  SEDAN = 0;
+  COUPE = 1;
+  SUV = 3;
+}
+
+
 message Car {
   string make = 1;
   string model = 2;
   int32 year = 3;
+  BodyStyle body_style = 4;
 }
 
 message Cars {
